@@ -1,0 +1,24 @@
+.Tinder {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.CardContainer {
+  width: 100%;
+  flex-grow: 1;
+  position: relative;
+  margin-bottom: 20px;
+  margin-Top: 20px;
+}
+
+.ButtonsContainer {
+  display: flex;
+  justify-content: space-evenly;
+  flex-shrink: 0;
+}
+
+button.Button {
+  border-radius: 50%;
+  padding: 20px;
+}

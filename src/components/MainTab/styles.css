@@ -1,0 +1,13 @@
+.MainTab {
+    width: 90%;
+    max-width: 400px;
+    height: 100%;
+    max-height: calc(-60px - 2rem + 100vh);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.Tabs {
+    flex-shrink: 0;
+}

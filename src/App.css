@@ -36,3 +36,20 @@
     transform: rotate(360deg);
   }
 }
+
+.Container{
+  touch-action: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  background-color: #f8f9fa;
+}
+
+.ProgressBar{
+  position: absolute;
+  z-index: 2;
+}
